@@ -2,7 +2,7 @@
 
 Next.js ve TypeScript ile geliştirilmiş, popüler filmler hakkında sorular içeren bir quiz uygulaması.
 
-🌐 [Canlı Demo](https://quiz-app-aei3.vercel.app/)
+🌐 [Canlı Demo](https://film-quiz-app.vercel.app/)
 
 ## Özellikler
 
