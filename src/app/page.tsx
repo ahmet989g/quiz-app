@@ -1,8 +1,7 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { Toaster } from 'sonner';
 import Header from '../components/Header';
 import QuizContainer from '../components/QuizContainer';
 import { quizData } from '../data/quiz-data';
@@ -16,7 +15,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <ToastContainer position="top-right" />
+      <Toaster position="top-right" />
       <Header onNewQuiz={handleNewQuiz} showNewQuizButton={quizKey > 0} />
       <div className="container mx-auto py-8">
         <QuizContainer

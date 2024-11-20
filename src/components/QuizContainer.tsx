@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { Question as QuestionType, UserAnswer } from '../types/quiz';
-import { toast } from 'react-toastify';
+import { toast } from 'sonner';
 import QuestionList from './QuestionList';
 import Question from './Question';
 import QuizResult from './QuizResult';
